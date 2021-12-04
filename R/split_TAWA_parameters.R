@@ -7,7 +7,7 @@
 ################################################################################
 
 split_TAWA_parameters <- function(params_path, output_suffix, output_dir) {
-  all_params <- openxlsx::read.xlsx(params_path) %>% setDT()
+  all_params <- openxlsx::read.xlsx(params_path, sheet = 1) %>% setDT()
   
   # Don't hard-code these parameters
   all_params <- all_params[!(Parameter %in% c("Database_File", "baseyear", "Out_File"))]

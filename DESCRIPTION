@@ -29,7 +29,8 @@ Imports:
     rhandsontable,
     scales,
     logging,
-    zoo
+    zoo,
+    pkgload
 Suggests: 
     testthat,
     pkgdown,
