@@ -1,5 +1,5 @@
 parameters_from_file <- function(parameters_file) {
-  parameters_df <- openxlsx::read.xlsx(parameters_file)
+  parameters_df <- openxlsx::read.xlsx(parameters_file, sheet = 1)
   parameters <- parameters_from_df(parameters_df)
   return(parameters)
 }
