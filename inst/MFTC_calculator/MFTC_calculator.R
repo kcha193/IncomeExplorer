@@ -1,5 +1,5 @@
 
-est_MFTC <- IncomeExplorer::estimate_MFTC_from_files(
+est_MFTC <- estimate_MFTC_from_files(
   parameter_files = list.files("App_Parameters/", full.names = TRUE),
   min_wages = DEFAULT_MIN_WAGES
 )
