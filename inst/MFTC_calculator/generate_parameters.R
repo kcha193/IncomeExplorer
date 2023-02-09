@@ -13,7 +13,7 @@ IncomeExplorer::split_TAWA_parameters(
 )
 
 # Convert each TAWA parameter file to IncomeExplorer App format
-IncomeExplorer::TAWA_to_app_param_files(
+TAWA_to_app_param_files(
   input_param_paths = list.files("TAWA_Parameters/", full.names = TRUE),
   output_param_dir = "App_Parameters/",
   output_suffix = "IncomeExplorer_",

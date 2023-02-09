@@ -8,8 +8,8 @@ convert_ages <- function(input_string){
 
 # Data table containing all the parameter setting for adjustment from the app
 show_all_parameters <- function(Parameters_File_SQ, Parameters_File_Reform) {
-  Params_text_SQ <- read.xlsx(Parameters_File_SQ)
-  Params_text_Reform <- read.xlsx(Parameters_File_Reform)
+  Params_text_SQ <- openxlsx::read.xlsx(Parameters_File_SQ, sheet = 1)
+  Params_text_Reform <- openxlsx::read.xlsx(Parameters_File_Reform, sheet = 1)
   
   Params_text_SQ <- select(Params_text_SQ, Parameter, Value) %>% rename(SQ = Value)
   Params_text_Reform <- select(Params_text_Reform, Parameter, Value) %>% rename(Reform = Value)
