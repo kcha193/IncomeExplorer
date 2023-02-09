@@ -11,7 +11,6 @@ test_that(
     )
     has_required_output_names(emtr_output)
 
-
     #fwrite(emtr_output, 'ref/emtr_output_1.csv')
 
     test_against_ref(emtr_output, 'ref/emtr_output_1.csv')
@@ -45,7 +44,6 @@ test_that(
     has_required_output_names(emtr_output)
 
     #fwrite(emtr_output, 'ref/emtr_output_3.csv')
-
 
     test_against_ref(emtr_output, 'ref/emtr_output_3.csv')
   })
