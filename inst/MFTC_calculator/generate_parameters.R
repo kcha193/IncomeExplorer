@@ -2,15 +2,12 @@
 
 # Split up a TAWA parameters file into several TAWA parameter files,
 # one for each Tax Year
-<<<<<<< HEAD
 
 # before running: set working directory to MFTC_calculator and create a folder
 # named TAWA_Parameters
 
 IncomeExplorer::split_TAWA_parameters(
-=======
-split_TAWA_parameters(
->>>>>>> 2b78093c6fd35e0fbe9e07cad6d954abf51d3591
+
   params_path = "",
   output_suffix = "",
   output_dir = "TAWA_Parameters"
