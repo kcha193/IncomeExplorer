@@ -10,13 +10,10 @@ test_that(
       AS_Accommodation_Costs = 600, AS_Accommodation_Rent = T, AS_Area = 1L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
+
 
     #fwrite(emtr_output, 'ref/emtr_output_1.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_1.csv')
->>>>>>> 5d3f006 (minor)
     test_against_ref(emtr_output, 'ref/emtr_output_1.csv')
   }
   )
@@ -30,13 +27,9 @@ test_that(
       AS_Accommodation_Costs = 800, AS_Accommodation_Rent = F, AS_Area = 2L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
 
     #fwrite(emtr_output, 'ref/emtr_output_2.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_2.csv')
->>>>>>> 5d3f006 (minor)
     test_against_ref(emtr_output, 'ref/emtr_output_2.csv')
   }
   )
@@ -50,13 +43,10 @@ test_that(
       AS_Accommodation_Costs = 600, AS_Accommodation_Rent = T, AS_Area = 3L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
 
     #fwrite(emtr_output, 'ref/emtr_output_3.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_3.csv')
->>>>>>> 5d3f006 (minor)
+
     test_against_ref(emtr_output, 'ref/emtr_output_3.csv')
   })
 
@@ -69,13 +59,9 @@ test_that(
       AS_Accommodation_Costs = 500, AS_Accommodation_Rent = F, AS_Area = 4L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
 
     #fwrite(emtr_output, 'ref/emtr_output_4.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_4.csv')
->>>>>>> 5d3f006 (minor)
     test_against_ref(emtr_output, 'ref/emtr_output_4.csv')
   })
 
@@ -88,13 +74,9 @@ test_that(
       AS_Accommodation_Costs = 800, AS_Accommodation_Rent = F, AS_Area = 1L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
 
     #fwrite(emtr_output, 'ref/emtr_output_5.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_5.csv')
->>>>>>> 5d3f006 (minor)
     test_against_ref(emtr_output, 'ref/emtr_output_5.csv')
   })
 
@@ -107,12 +89,8 @@ test_that(
       AS_Accommodation_Costs = 0, AS_Accommodation_Rent = T, AS_Area = 2L
     )
     has_required_output_names(emtr_output)
-<<<<<<< HEAD
 
     #fwrite(emtr_output, 'ref/emtr_output_6.csv')
 
-=======
-    #fwrite(emtr_output, 'ref/emtr_output_6.csv')
->>>>>>> 5d3f006 (minor)
     test_against_ref(emtr_output, 'ref/emtr_output_6.csv')
   })
