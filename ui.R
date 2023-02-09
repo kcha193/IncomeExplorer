@@ -28,13 +28,13 @@ shinyUI(fluidPage(
   # different themes from shinythemes R package, https://rstudio.github.io/shinythemes/
   theme = shinytheme("readable"),
   # Application title
-  titlePanel("Income Explorer Prototype (version 0.3.1)"),
+  titlePanel("Income Explorer Prototype (version 0.5.1)"),
   
   # Side menu
   sidebarLayout(
     sidebarPanel(
       width = 4,
-      h6("Latest Update: 2021-12-17"),
+      h6("Latest Update: 2023-02-07"),
       # Select SQ parameters file
       selectInput(inputId = 'parameters_SQ',
                   label = 'Choose a Status quo setting of Tax Year',
