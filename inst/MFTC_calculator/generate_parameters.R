@@ -2,15 +2,11 @@
 
 # Split up a TAWA parameters file into several TAWA parameter files,
 # one for each Tax Year
-<<<<<<< HEAD
 
 # before running: set working directory to MFTC_calculator and create a folder
 # named TAWA_Parameters
 
 IncomeExplorer::split_TAWA_parameters(
-=======
-split_TAWA_parameters(
->>>>>>> 440329a (Some more tidy up and convert it back to as a  package, so typing IncomeExplorer:myApp() will load up the shiny app locally.)
   params_path = "",
   output_suffix = "",
   output_dir = "TAWA_Parameters"
